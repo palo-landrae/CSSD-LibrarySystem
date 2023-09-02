@@ -12,14 +12,12 @@ namespace LibrarySystem
         public void AddBook(Book book) {
             books.Add(book);
         }
-        public void RemoveBook(Book book)
-        {
 
-        }
         public Book[] GetBooks()
         {
             return books.ToArray();
         }
+
         public void BorrowBook(Student student, Book book) {
 
         }
